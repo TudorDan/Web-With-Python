@@ -348,10 +348,10 @@ SELECT ARRAY_AGG(salary) FROM table;
 #### What kind of JOIN types do you know in SQL? Could you give examples?
 * INNER JOIN is a process that matches rows from the first table and the second table which have the same key (as 
 defined by the ON constraint) to create a result row with the combined columns from both tables.
-* When joining table A to table B, a LEFT JOIN simply includes rows from A regardless of whether a matching row is 
+* When joining table A to table B, a LEFT JOIN includes rows from A regardless of whether a matching row is 
 found in B.
-* The RIGHT JOIN is the same, but reversed, keeping rows in B regardless of whether a match is found in A. 
-* FULL OUTER JOIN simply means that rows from both tables are kept, regardless of whether a matching row exists in 
+* The RIGHT JOIN is similar, but reversed, keeping rows in B regardless of whether a match is found in A. 
+* FULL OUTER JOIN means that rows from both tables are kept, regardless of whether a matching row exists in 
 the other table.
 #### What are the constraints in sql?
 * Constraints are the rules enforced on data columns on table.
@@ -615,8 +615,8 @@ git log --graph --decorate --oneline
 #### What does remote/local mean in Git?
 * **git remote** = lists the remote connections you have to other repositories.
 * **git remote -v** = same including the URL of each connection.
-* **git remote -v** = create a new connection to a remote repository. 
-* **git remote rm <name>** = remove the connection to the remote repository called <name>.
+* **git remote add \<name> \<url>** = create a new connection to a remote repository. 
+* **git remote rm \<name>** = remove the connection to the remote repository called <name>.
 ***
 
 ### DevOps
