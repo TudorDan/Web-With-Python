@@ -5,8 +5,8 @@
 ### Clean code
 
 #### Point out 5 suggestions, how to format an SQL query!
-1. Include the __AS__ keyword for creating aliases: the first letter of each word in the object’s name
-2. Use uppercase for the reserved keywords like __SELECT__ and __WHERE__.
+1. Include the ***AS*** keyword for creating aliases: the first letter of each word in the object’s name
+2. Use uppercase for the reserved keywords like ***SELECT*** and ***WHERE***.
 3. Indentation: can really help the readability
 4. Try to use only standard SQL functions
 5. Only use letters, numbers and underscores in names.
@@ -21,8 +21,8 @@
 #### What error can occur, when an array does not have an element on the requested index?
 * IndexOutOfRangeException
 #### What is the “finally” block, and how would you use it?
-* __finally__ block is always executed after leaving the __try__ statement
-* __finally__ block is used to deallocate the system resources.
+* ***finally*** block is always executed after leaving the ***try*** statement
+* ***finally*** block is used to deallocate the system resources.
 #### Why should we catch special exception types?
 * In Python, we use special exception types for control-flow, for pulling error-handling outside loops and can simplify
  code quite a bit in common situations where the ability to handle an issue is far removed from where the issue arose.
@@ -71,9 +71,9 @@ secure communication over a computer network, and is widely used on the Internet
 speak exactly the same HTTP to each other, but over a secure SSL connection that encrypts and decrypts their requests 
 and responses.
 #### What is encryption and decryption?
-* __Encryption__ is the process of translating plain text data (plaintext) into something that appears to be random and 
+* ***Encryption*** is the process of translating plain text data (plaintext) into something that appears to be random and 
 meaningless (cipher text).
-* __Decryption__ is the process of converting cipher text back to plaintext.
+* ***Decryption*** is the process of converting cipher text back to plaintext.
 #### What is hashing?
 * A method of generating from a data collection a fixed length string.
 #### What is the difference between encryption and hashing? When would you use which?
@@ -105,8 +105,8 @@ password manager rather than entrusted to individuals.
 ### Algorithms
 
 #### What is the difference between Stack and Queue data structure?
-* The main differences between stack and queue are that __Stack__ uses LIFO (last in first out) method to access and
- add data elements whereas __Queue__ uses FIFO (First in first out) method to access and add data elements.
+* The main differences between stack and queue are that ***Stack*** uses LIFO (last in first out) method to access and
+ add data elements whereas ***Queue*** uses FIFO (First in first out) method to access and add data elements.
 #### What is BubbleSort? Describe the main logic of this sorting algorithm.
 * A sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if 
 they are in the wrong order. The pass through the list is repeated until the list is sorted.
@@ -296,7 +296,7 @@ my_form.submit();
 my_form.reset();
 ```
 #### What is a callback function? Tell some examples of its usage.
-* A __callback function__ is a function passed into another function as an argument.
+* A ***callback function*** is a function passed into another function as an argument.
 ```
 function greeting(name) {
   alert('Hello ' + name);
@@ -308,7 +308,7 @@ function processUserInput(callback) {
 processUserInput(greeting);
 ```
 #### What is a Python decorator? How does it work? Tell some examples of its usage.
-* __Decorators__ wrap functions, modifying the behavior of the code before and after a target function execution, 
+* ***Decorators*** wrap functions, modifying the behavior of the code before and after a target function execution, 
 without the need to modify the function itself:
 ```
 def decorator(func):
@@ -569,14 +569,14 @@ messages to be displayed to users, data to be validated, and virtually any other
 element inside another element, and both elements have registered a handle for that event.
 * bubbling = the event is first captured and handled by the innermost element and then propagated to outer elements.
 * capturing = the event is first captured by the outermost element and propagated to the inner elements.
-* We can use the __addEventListener(type, listener, useCapture)__ to register event handlers for in either 
+* We can use the ***addEventListener(type, listener, useCapture)*** to register event handlers for in either 
 bubbling (default, useCapture=false) or capturing mode.
 * To use the capturing model pass the third argument as true.
 #### What is JSON and how do we use it?
 * JSON is JavaScript Object Notation = format is often used for serializing and transmitting structured data over 
 a network connection.
 * It is used primarily to transmit data between a server and web application, serving as an alternative to XML. 
-__*
+***
 
 ## Software engineering
 
@@ -613,10 +613,10 @@ git log --graph --decorate --oneline
 * It will draw a text based graph of the commits on the left hand side of the commit messages, with the names of
  branches or tags of the commits on a single line.
 #### What does remote/local mean in Git?
-* __git remote__ = lists the remote connections you have to other repositories.
-* __git remote -v__ = same including the URL of each connection.
-* __git remote add \<name> \<url>__ = create a new connection to a remote repository. 
-* __git remote rm \<name>__ = remove the connection to the remote repository called <name>.
+* ***git remote*** = lists the remote connections you have to other repositories.
+* ***git remote -v*** = same including the URL of each connection.
+* ***git remote add \<name> \<url>*** = create a new connection to a remote repository. 
+* ***git remote rm \<name>*** = remove the connection to the remote repository called <name>.
 ***
 
 ### DevOps
@@ -624,9 +624,9 @@ git log --graph --decorate --oneline
 #### Why is it good to use a package manager software?
 * A package manager software is a programming language’s tool to create project environments and easily import external 
 dependencies.
-* __pip__ allows you to add dependencies to your projects for your given Python instalments.
+* ***pip*** allows you to add dependencies to your projects for your given Python instalments.
 #### Why is it good to use a virtual environment for a project?
-* __virtualenv__ is a tool to create isolated Python environments. It solves a very specific problem: it allows
+* ***virtualenv*** is a tool to create isolated Python environments. It solves a very specific problem: it allows
  multiple Python projects that have different (and often conflicting ) requirements, to coexist on the same computer.
 ***
 
@@ -663,19 +663,19 @@ you interact with one certain part of the given software.
  sending them to right location.
 * TCP/IP model is practical model and is used in the Internet, which combines the two layers (Physical and Data link
  layer) into one layer i.e. Host-to-Network layer:
-    * __Application Layer__
+    * ***Application Layer***
         * provides different services such as manipulation of information, retransferring the files
          of information, distributing the results etc.
         * functions such as LOGIN or password checking are also performed by the application layer.
         * Protocols used in this layer: TELNET, FTP, SMTP, DN, HTTP, NNTP 
-    * __Transport Layer__
+    * ***Transport Layer***
         * uses TCP and UDP protocols for end to end transmission.
         * TCP is reliable and connection oriented protocol, that also handles flow control.
-    * __Internet Layer__
+    * ***Internet Layer***
         * allows the host to insert packets into network and then make them travel independently to the destination.
         * the order of receiving the packet can be different from the sequence they were sent.
         * Protocols used in this layer: Internet Protocol (IP).
-    * __Host-to-Network Layer__
+    * ***Host-to-Network Layer***
         * the host has to connect to network using some protocol, so that it can send IP packets over it.
         * Protocols used in this layer: ARPANET, SATNET, LAN, packet radio
 #### What’s the difference between TCP and UDP?
@@ -705,7 +705,7 @@ you interact with one certain part of the given software.
         * Allow: GET, HEAD, PUT, POST
         * Content-Length
         * Content-Type
-* __GET__ request
+* ***GET*** request
 ```
 GET /hello.htm HTTP/1.1
 User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
@@ -715,7 +715,7 @@ Accept-Language: en-us
 Accept-Encoding: gzip, deflate
 Connection: Keep-Alive
 ```
-* __POST__ request
+* ***POST*** request
 ```
 POST /cgi-bin/process.cgi HTTP/1.1
 User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
@@ -798,14 +798,14 @@ Connection: Closed
 ## Software Development Methodologies
 
 #### What kind of software development methodologies do you know? What are the main features of these?
-* __Waterfall Model__
+* ***Waterfall Model***
     * Requirement Gathering and analysis
     * System Design
     * Implementation
     * Integration and Testing
     * Deployment of system
     * Maintenance
-* __Agile Model__
+* ***Agile Model***
     * User Stories &rarr; features customers might one day like to see in their software.
     * Estimation &rarr; make some really accurate predictions about the future while based on what was done in the past.
     * Iterations &rarr; a short one to two week period where a team takes a couple of their customers most important
