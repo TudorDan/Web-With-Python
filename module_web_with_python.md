@@ -663,19 +663,19 @@ you interact with one certain part of the given software.
  sending them to right location.
 * TCP/IP model is practical model and is used in the Internet, which combines the two layers (Physical and Data link
  layer) into one layer i.e. Host-to-Network layer:
-    * Application Layer
+    * **Application Layer**
         * provides different services such as manipulation of information, retransferring the files
          of information, distributing the results etc.
         * functions such as LOGIN or password checking are also performed by the application layer.
         * Protocols used in this layer: TELNET, FTP, SMTP, DN, HTTP, NNTP 
-    * Transport Layer
+    * **Transport Layer**
         * uses TCP and UDP protocols for end to end transmission.
         * TCP is reliable and connection oriented protocol, that also handles flow control.
-    * Internet Layer
+    * **Internet Layer**
         * allows the host to insert packets into network and then make them travel independently to the destination.
         * the order of receiving the packet can be different from the sequence they were sent.
         * Protocols used in this layer: Internet Protocol (IP).
-    * Host-to-Network Layer
+    * **Host-to-Network Layer**
         * the host has to connect to network using some protocol, so that it can send IP packets over it.
         * Protocols used in this layer: ARPANET, SATNET, LAN, packet radio
 #### What’s the difference between TCP and UDP?
@@ -692,15 +692,15 @@ you interact with one certain part of the given software.
 #### How does an HTTP Request look like? What are the most relevant HTTP header fields?
 * HTTP header fields provide required information about the request or response, or about the object sent in the
   message body. There are four types of HTTP message headers:
-    * General-header: These header fields have general applicability for both request and response messages.
+    * _General-header_: These header fields have general applicability for both request and response messages.
         * Connection
-    * Client Request-header: These header fields have applicability only for request messages.
+    * _Client Request-header_: These header fields have applicability only for request messages.
         * Accept-Language
         * Accept-Encoding
-    * Server Response-header: These header fields have applicability only for response messages.
+    * _Server Response-header_: These header fields have applicability only for response messages.
         * Location : absoluteURI
         * Set-Cookie: NAME=VALUE; OPTIONS
-    * Entity-header: These header fields define meta information about the entity-body or, if no body is present
+    * _Entity-header_: These header fields define meta information about the entity-body or, if no body is present
     , about the resource identified by the request.
         * Allow: GET, HEAD, PUT, POST
         * Content-Length
@@ -798,14 +798,14 @@ Connection: Closed
 ## Software Development Methodologies
 
 #### What kind of software development methodologies do you know? What are the main features of these?
-* Waterfall Model
+* **Waterfall Model**
     * Requirement Gathering and analysis
     * System Design
     * Implementation
     * Integration and Testing
     * Deployment of system
     * Maintenance
-* Agile Model
+* **Agile Model**
     * User Stories &rarr; features customers might one day like to see in their software.
     * Estimation &rarr; make some really accurate predictions about the future while based on what was done in the past.
     * Iterations &rarr; a short one to two week period where a team takes a couple of their customers most important
